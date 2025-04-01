@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
     text-align: center;
@@ -36,7 +37,7 @@ body {
 }
 
 .logo {
-    width: 150px;
+    width: 300px;
     margin-bottom: 20px;
     animation: popIn 1.2s ease-in-out;
 }
@@ -136,6 +137,26 @@ a:hover {
     border-radius: 50%;
     animation: float 5s infinite ease-in-out;
 }
+footer {
+    margin-top: 40px; /* Space above the footer */
+    padding: 20px; /* Padding inside the footer */
+    color: #ffffff; /* Text color */
+    text-align: center; /* Center the text */
+    position: relative; /* Positioning context for other styles */
+}
+
+footer a {
+    color: #03dac6; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold link text */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+footer a:hover {
+    color: #00c4b4; /* Color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
 
 .particle:nth-child(1) { top: 20%; left: 15%; animation-duration: 6s; }
 .particle:nth-child(2) { top: 40%; left: 70%; animation-duration: 7s; }
