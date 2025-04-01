@@ -37,7 +37,7 @@ body {
 }
 
 .logo {
-    width: 300px;
+    width: 250px;
     margin-bottom: 20px;
     animation: popIn 1.2s ease-in-out;
 }
@@ -138,8 +138,7 @@ a:hover {
     animation: float 5s infinite ease-in-out;
 }
 footer {
-    margin-top: 40px; /* Space above the footer */
-    padding: 20px; /* Padding inside the footer */
+  
     color: #ffffff; /* Text color */
     text-align: center; /* Center the text */
     position: relative; /* Positioning context for other styles */
