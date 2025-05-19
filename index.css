@@ -11,6 +11,10 @@ body {
     height: 100vh;
     margin: 0;
     text-align: center;
+<<<<<<< HEAD
+=======
+/*     overflow: hidden; */
+>>>>>>> 96a76f6ca42db55abc582305a743e72f346c795b
     position: relative;
 }
 
@@ -137,6 +141,10 @@ a:hover {
     animation: float 5s infinite ease-in-out;
 }
 footer {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 96a76f6ca42db55abc582305a743e72f346c795b
     color: #ffffff; /* Text color */
     text-align: center; /* Center the text */
     position: relative; /* Positioning context for other styles */
